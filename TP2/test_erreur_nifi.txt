@@ -1,0 +1,19 @@
+UC-04 - Etape 10 : Test d'erreur NiFi
+
+Test : utilisation volontaire d'un dossier inexistant.
+
+Dossier testé :
+/data/nifi/dossier_inexistant
+
+Erreur observee :
+Input Directory validated against '/data/nifi/dossier_inexistant'
+is invalid because Directory does not exist.
+
+Explication :
+NiFi refuse de lire un dossier qui n'existe pas.
+
+Correction :
+Remettre le dossier /home/houda/nifi-input.
+
+Resultat :
+L'erreur a bien ete detectee par GetFile.

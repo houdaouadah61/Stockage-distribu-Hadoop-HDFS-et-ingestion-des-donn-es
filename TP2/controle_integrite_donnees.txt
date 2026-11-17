@@ -1,0 +1,20 @@
+=== CONTROLE INTEGRITE DES DONNEES TPCx-BB ===
+mar. 17 nov 2026 17:25:08 CET
+=== store ===
+LOCAL
+a936bc38692bdddc222cf86d08ed9d0feb761af26769212d789cf6729d1808ef  /mnt/hgfs/retail_project/data/store/store.dat
+HDFS
+a936bc38692bdddc222cf86d08ed9d0feb761af26769212d789cf6729d1808ef  -
+=== item ===
+LOCAL
+d8d4863009914b86119c2df6f6a55a581cc07617304551ab7b741400ef7fed21  /mnt/hgfs/retail_project/data/item/item.dat
+HDFS
+d8d4863009914b86119c2df6f6a55a581cc07617304551ab7b741400ef7fed21  -
+=== store_sales ===
+LOCAL
+7e0a7f16b47483741754bb641c92601dd7384dacc8331d0bcfb8abac82ed3d2e  /mnt/hgfs/retail_project/data/store_sales/store_sales.dat
+HDFS
+7e0a7f16b47483741754bb641c92601dd7384dacc8331d0bcfb8abac82ed3d2e  -
+=== REFRESH STORE SALES ===
+3c71c010a17d15c90564ddb12be4a1286f494669198b55e782edef6f8e8b23df  /mnt/hgfs/retail_project/data_refresh/store_sales/store_sales.dat
+3c71c010a17d15c90564ddb12be4a1286f494669198b55e782edef6f8e8b23df  -

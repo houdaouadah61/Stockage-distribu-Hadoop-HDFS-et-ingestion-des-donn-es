@@ -1,0 +1,47 @@
+=== TP JOUR 2 : DEPOT TPCx-BB ===
+mar. 17 nov 2026 17:23:46 CET
+=== ENVIRONNEMENT HADOOP ===
+18208 BootstrapProcess
+6518 DataNode
+26311 Jps
+18233 NiFi
+6393 NameNode
+6750 SecondaryNameNode
+=== FICHIER TPCx-BB DANS HDFS ===
+Found 1 items
+-rw-r--r--   1 houda supergroup      3.3 K 2026-11-17 17:19 /retail-lake/raw/tpcxbb/initial/store/store.dat
+=== CONTENU DU FICHIER ===
+0|AAAAAAAAAAAAAAAA|2000-08-02||71238|Forest|217|8891512|8AM-12AM|Joshua Watson|6|Unknown|realms sublate quickly outside the epitaphs; evenly silent patterns boost! th|Randy King|1|Unknown|1|Unknown|916|1st|Boulevard|XF|Post Oak|Hinsdale County|CO|47562|United States|-7|0.06
+1|AAAAAAAAAAAAAAAB|2000-07-03||18994|Hillside|244|8751339|8AM-4PM|Gary Gold|3|Unknown|close escapades across the carefully ironic grouches shall have to lose into the sauternes: sl|John Green|1|Unknown|1|Unknown|696|3rd 4th|Blvd|gcg5eGNxs|Jerusalem|Union County|TN|80145|United States|-6|0.03
+2|AAAAAAAAAAAAAAAC|2000-09-01||8900|Sherwood|266|5913334|8AM-4PM|James Anderson|6|Unknown|frays may kindle over the bold ironic epitaphs! slow quick multipliers maintain among t|Raymond Kitchens|1|Unknown|1|Unknown|293|Main Fourteenth|Ct.|8pCGst|Mount Vernon|Sierra County|CA|97832|United States|-8|0.07
+3|AAAAAAAAAAAAAAAD|2000-06-02||69902|Pioneer|221|5777026|8AM-4PM|Owen Kirchner|4|Unknown|close idle foxes beside the quick foxes could have to nag|Steven Talbott|1|Unknown|1|Unknown|297|Williams River|Court|0fSBho|Austin|Grayson County|TX|42774|United States|-6|0.10
+4|AAAAAAAAAAAAAAAE|2000-07-03||79617|Elmwood|254|7508523|8AM-4PM|Derrick Ewing|3|Unknown|brave sly dependencies on the dolphins try to sublate fluffy do|Martin Mckinley|1|Unknown|1|Unknown|398|Laurel|Ln|Us|Lakeside|Marshall County|KY|64295|United States|-5|0.04
+=== CONTROLE INTEGRITE ===
+LOCAL :
+a936bc38692bdddc222cf86d08ed9d0feb761af26769212d789cf6729d1808ef  /mnt/hgfs/retail_project/data/store/store.dat
+HDFS :
+a936bc38692bdddc222cf86d08ed9d0feb761af26769212d789cf6729d1808ef  -
+=== ARBORESCENCE DATA LAKE ===
+drwxr-xr-x   - houda supergroup          0 2026-11-17 15:28 /retail-lake/bronze
+drwxr-xr-x   - houda supergroup          0 2026-11-17 15:28 /retail-lake/bronze/tpcxbb
+drwxr-xr-x   - houda supergroup          0 2026-11-17 15:28 /retail-lake/gold
+drwxr-xr-x   - houda supergroup          0 2026-11-17 15:28 /retail-lake/logs
+drwxr-xr-x   - houda supergroup          0 2026-11-17 15:28 /retail-lake/quality
+drwxr-xr-x   - houda supergroup          0 2026-11-17 16:21 /retail-lake/raw
+drwxr-xr-x   - houda supergroup          0 2026-11-17 17:22 /retail-lake/raw/nifi
+-rw-r--r--   1 houda supergroup       3386 2026-11-17 17:22 /retail-lake/raw/nifi/store.dat
+-rw-r--r--   1 houda supergroup         94 2026-11-17 16:42 /retail-lake/raw/nifi/ventes_auto_test.csv
+-rw-r--r--   1 houda supergroup        107 2026-11-17 16:35 /retail-lake/raw/nifi/ventes_test.csv
+drwxr-xr-x   - houda supergroup          0 2026-11-17 15:28 /retail-lake/raw/tpcxbb
+drwxr-xr-x   - houda supergroup          0 2026-11-17 17:19 /retail-lake/raw/tpcxbb/initial
+drwxr-xr-x   - houda supergroup          0 2026-11-17 17:19 /retail-lake/raw/tpcxbb/initial/item
+-rw-r--r--   1 houda supergroup    6799286 2026-11-17 17:19 /retail-lake/raw/tpcxbb/initial/item/item.dat
+drwxr-xr-x   - houda supergroup          0 2026-11-17 17:19 /retail-lake/raw/tpcxbb/initial/store
+-rw-r--r--   1 houda supergroup       3386 2026-11-17 17:19 /retail-lake/raw/tpcxbb/initial/store/store.dat
+drwxr-xr-x   - houda supergroup          0 2026-11-17 17:19 /retail-lake/raw/tpcxbb/initial/store_sales
+-rw-r--r--   1 houda supergroup   92764700 2026-11-17 17:19 /retail-lake/raw/tpcxbb/initial/store_sales/store_sales.dat
+-rw-r--r--   1 houda supergroup        107 2026-11-17 15:31 /retail-lake/raw/tpcxbb/initial/ventes_test.csv
+drwxr-xr-x   - houda supergroup          0 2026-11-17 17:19 /retail-lake/raw/tpcxbb/refresh
+drwxr-xr-x   - houda supergroup          0 2026-11-17 17:19 /retail-lake/raw/tpcxbb/refresh/store_sales
+-rw-r--r--   1 houda supergroup     922171 2026-11-17 17:19 /retail-lake/raw/tpcxbb/refresh/store_sales/store_sales.dat
+drwxr-xr-x   - houda supergroup          0 2026-11-17 15:28 /retail-lake/silver

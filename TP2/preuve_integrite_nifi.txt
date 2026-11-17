@@ -1,0 +1,8 @@
+=== PREUVE INTEGRITE TRANSFERT NIFI ===
+mar. 17 nov 2026 16:41:36 CET
+=== FICHIER ORIGINAL ===
+93f3955294e369d4ba463757d9822339954eba21ed4270a63ffd9f4e730cac04  /tmp/ventes_test.csv
+=== FICHIER HDFS ===
+93f3955294e369d4ba463757d9822339954eba21ed4270a63ffd9f4e730cac04  -
+=== TAILLE HDFS ===
+107  107  /retail-lake/raw/nifi/ventes_test.csv

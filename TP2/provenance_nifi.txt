@@ -1,0 +1,17 @@
+PREUVE DE PROVENANCE NIFI
+
+Date : 17/11/2026 17:22:17.091 CET
+Type : DROP
+Duree evenement : 0.091 seconde
+Duree lineage : 0.118 seconde
+FlowFile UUID :
+8bb31003-d001-49db-a441-87f27a23651f
+Taille : 3.31 KB
+Processeur : PutHDFS
+Component Type : PutHDFS
+Details : Auto-Terminated by success Relationship
+
+Interpretation :
+Le FlowFile a suivi la relation success de PutHDFS.
+Le fichier a ete verifie dans HDFS.
+Filename : store.dat
