@@ -19,3 +19,48 @@ Fichier : store_sales.dat (refresh)
 Source : /mnt/hgfs/retail_project/data_refresh/store_sales/store_sales.dat
 Destination HDFS : /retail-lake/raw/tpcxbb/refresh/store_sales/store_sales.dat
 Taille HDFS : 922171 octets
+========================================
+ANALYSE DES FORMATS ET STRUCTURES TPCx-BB
+
+Provenance :
+Jeu de données TPCx-BB utilisé dans le TP Jour 2 IPSSI.
+Les fichiers ont été inspectés directement dans Hadoop HDFS.
+
+Format commun :
+Fichiers texte .dat, avec séparateur vertical |.
+Aucun en-tête de colonnes observé sur les premières lignes.
+Les noms exacts des champs ne sont donc pas confirmés.
+
+1. store.dat
+Nombre de lignes : 12
+Nombre de colonnes observées : 29
+Types observés : entiers, texte, date, valeur décimale.
+Limites : présence d'au moins un champ vide sur la première ligne.
+
+2. item.dat
+Nombre de lignes : 17820
+Nombre de colonnes observées : 22
+Types observés : entiers, texte, date, valeurs décimales.
+Limites : présence d'au moins un champ vide sur la première ligne.
+
+3. store_sales.dat (initial)
+Nombre de lignes : 667579
+Nombre de colonnes observées : 23
+Types observés : valeurs entières et décimales.
+Limites : absence d'en-tête descriptif.
+
+4. store_sales.dat (refresh)
+Nombre de lignes : 6632
+Nombre de colonnes observées : 23
+Types observés : valeurs entières et décimales.
+Limites : présence de valeurs négatives dans la première
+ligne observée, à interpréter selon le schéma métier.
+
+Méthode de vérification :
+- Comptage des lignes avec hdfs dfs -cat et wc -l.
+- Inspection de la première ligne avec head -n 1.
+- Analyse du séparateur | et des colonnes observées.
+
+Remarque :
+Les types indiqués sont déduits des échantillons inspectés.
+Ils ne constituent pas une validation exhaustive du schéma.

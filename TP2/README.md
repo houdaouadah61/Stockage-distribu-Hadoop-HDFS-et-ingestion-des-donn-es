@@ -7,6 +7,8 @@
 - Java NiFi 21
 - HDFS mono-noeud
 - Replication factor : 1
+- Apache NiFi 2.12.0
+- Python 3.14.4
 
 ## Data Lake
 Racine : /retail-lake
@@ -36,10 +38,11 @@ Gestion des échecs : LogAttribute
 
 Source locale : /home/houda/nifi-input
 Destination : /retail-lake/raw/nifi
+Le fichier store.dat a été transféré automatiquement par NiFi
+vers /retail-lake/raw/nifi.
 
-Le fichier store.dat a été transféré par NiFi.
-Il a ensuite été rangé dans la zone initial du Data Lake.
-
+Un dépôt manuel distinct des données TPCx-BB a été effectué
+dans /retail-lake/raw/tpcxbb/initial avec les commandes HDFS.
 ## Tests
 - Création des répertoires HDFS
 - Dépôt et lecture des données
