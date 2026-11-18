@@ -2,3 +2,20 @@ Fichier : store.dat
 Source : /mnt/hgfs/retail_project/data/store/store.dat
 Destination HDFS : /retail-lake/raw/tpcxbb/initial/store/store.dat
 -rwxrwxrwx 1 root root 3,4K Nov 16 12:44 /mnt/hgfs/retail_project/data/store/store.dat
+========================================
+Fichier : item.dat
+Source : /mnt/hgfs/retail_project/data/item/item.dat
+Destination HDFS : /retail-lake/raw/tpcxbb/initial/item/item.dat
+Taille HDFS : 6799286 octets
+
+========================================
+Fichier : store_sales.dat (initial)
+Source : /mnt/hgfs/retail_project/data/store_sales/store_sales.dat
+Destination HDFS : /retail-lake/raw/tpcxbb/initial/store_sales/store_sales.dat
+Taille HDFS : 92764700 octets
+
+========================================
+Fichier : store_sales.dat (refresh)
+Source : /mnt/hgfs/retail_project/data_refresh/store_sales/store_sales.dat
+Destination HDFS : /retail-lake/raw/tpcxbb/refresh/store_sales/store_sales.dat
+Taille HDFS : 922171 octets
